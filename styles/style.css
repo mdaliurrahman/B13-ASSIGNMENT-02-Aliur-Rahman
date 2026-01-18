@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles */
+
+body{
+    
+}
+
+.Font-color{
+    color: #FFFFFF;
+}
+
+
+
+.navbar{
+    background-color: #1A0B2E;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 200px;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 32px;
+    color: #FFFFFF;
+}
+
+.banner{
+    max-width: 1600px;
+    max-height: 760px;
+    background-image: url(../assets/hero-bg.png);
+}
