@@ -21,6 +21,8 @@ body{
 
 
 .navbar{
+    width: 1600px;
+    height: 92px;
     background-color: #1A0B2E;
 }
 .nav-container{
@@ -42,7 +44,24 @@ body{
 }
 
 .banner{
-    max-width: 1600px;
-    max-height: 760px;
+    
+}
+
+.hero-section{
+    width: 1600px;
+    height: 760px;
     background-image: url(../assets/hero-bg.png);
+}
+
+.hero-container{
+    max-width: 550Hug;
+    max-height: 558Hug;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 101px; 
+}
+
+.hero-microphone{
+    position: relative;
+    
 }
