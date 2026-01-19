@@ -237,8 +237,7 @@
 .choose-card h3{
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 0px 40px;
-   
+    padding: 0px 40px;  
 }
 
 .card-1 p{
@@ -250,9 +249,161 @@
     font-size: 1rem;
     font-weight: 400;
     padding: 0px 0px 40px 40px;
+}
+
+/* -------------------Featured Episode----------------------------- */
+
+.episode-and-host-section{
+    width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+    border: 1px solid white;
+}
+.episode-section{
+    width: 1200px;
+    height: 538px;
+    margin: 0 auto;
+   
+}
+.episode-title{
+    width: 1200px;
+    height: 58px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+   
+}
+.episode-car-container{
+    width: 1200px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.episode-card-01, .episode-card-02, .episode-card-03 {
+    width: 380px;
+    height: 440px;
+    margin: 0 auto;
+    gap: 30px;
+    border-radius: 30px;
+    background-color: #250D44;
+}
+
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.card-title{
+    width: 332px;
+    height: 58px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 24px;
+    margin-bottom: 0px;
+}
+
+.card-details{
+    width: 332px;
+    height: 72px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 12px 20px;
+}
+
+.card-time{
+    width: 53px;
+    height: 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+/* ------------------Meet The Host Section---------- */
+.host-section{
+    width: 1200px;
+    height: 378px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+.host-title{
+    width: 1200px;
+    height: 58px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.alex-section{
+    width: 1200px;
+    height: 280px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+   
+}
+.alex-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+}
+
+.host-photo{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+.host-text-container{
+    padding-right: 40px;
+    margin-left: 24px
+}
+.host-name{
+    width: 896px;
+    height: 39px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 0px;
 
 }
 
+.host-details{
+    width: 896px;
+    height: 72px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+}
+.host-icon{
+    display: flex;
+    width: 184px;
+    height: 40px;
+    align-items: center;
+    gap: 20px;
+    
+}
+.host-icon img{
+   gap: 5px;
+}
 /* ------------------Mobile Device Responsive Start Here---------- */
 
 @media screen and (max-width:576px) {
