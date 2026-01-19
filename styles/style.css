@@ -43,9 +43,6 @@ body{
     color: #FFFFFF;
 }
 
-.banner{
-    
-}
 
 .hero-section{
     width: 1600px;
@@ -54,14 +51,58 @@ body{
 }
 
 .hero-container{
-    max-width: 550Hug;
-    max-height: 558Hug;
+    width: 550Hug;
+    height: 558Hug;
     margin: 0 auto;
     text-align: center;
     padding-top: 101px; 
 }
-
-.hero-microphone{
-    position: relative;
-    
+.hero-images .image-01{
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 130px;
 }
+.hero-images .image-02{
+    position: relative;
+    top: -80px;
+    left: -240px;
+}
+
+.hero-text{
+    margin-top: 0px;
+}
+.hero-title{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+.hero-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.hero-btns{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn-01, .btn-02{
+    width: 201;
+    height: 44;
+    background-color:rgb(151, 41, 136) ;
+    border: none;
+    padding: 20px 12px;
+    border-radius: 1000px;
+}
+.hero-btn-1, .hero-btn-2{
+   font-size: 1rem;
+   font-weight: 600;
+   color: #FFFFFF;
+   border: none;
+   background-color: rgb(151, 41, 136);
+}
+
+
