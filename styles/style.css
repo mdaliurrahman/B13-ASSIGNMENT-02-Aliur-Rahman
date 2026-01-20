@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -25,12 +31,16 @@
     height: 92px;
     background-color: #1A0B2E;
 }
+.nav-color-title{
+    background: linear-gradient(to right, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)); 
+    background-clip: text;
+    color: transparent;
+}
 .nav-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
     margin: 24px 200px;
 }
 
@@ -45,7 +55,18 @@
     color: #FFFFFF;
 }
 
+.nav-btn {
+    background-image: linear-gradient(to right, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    width: 135px;
+    height: 44px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 100px;
+    margin-left: 250px;
+}
 
+/* -------------------Hero section Design start here--------- */
 .hero-section{
     width: 1600px;
     height: 760px;
@@ -93,36 +114,44 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    padding-top: 24px;
+    gap: 10px;
 }
-.btn-01, .btn-02{
-    width: 201;
-    height: 44;
-    background-color:rgb(151, 41, 136) ;
-    border: none;
-    padding: 20px 12px;
-    border-radius: 1000px;
+.hero-btn-1 {
+    background-image: linear-gradient(to right, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)); 
+    width: 201px;
+    height: 44px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 30px;
+
 }
-.hero-btn-1, .hero-btn-2{
-   font-size: 1rem;
-   font-weight: 600;
-   color: #FFFFFF;
-   border: none;
-   background-color: rgb(151, 41, 136);
+.hero-btn-2 {
+    background-image: linear-gradient(#1A0B2E);
+    width: 147px;
+    height: 44px; 
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    border: 1px solid #00FF88;
+    border-radius: 30px;
 }
+
+
+
 /* -----------------Listener Container- Design Start Here------------ */
 .listener-container{
     width: 1600px;
     height: 646px;
     text-align: center;
-    
-    border: 2px solid white;
 }
 
 .listener-text-container{
     width: 1200px;
     height: 222px;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 70px;
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 74px;
@@ -257,12 +286,13 @@
     width: 1600px;
     height: 1276px;
     background-color: #1A0B2E;
-    border: 1px solid white;
 }
 .episode-section{
     width: 1200px;
     height: 538px;
     margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
    
 }
 .episode-title{
@@ -340,6 +370,7 @@
     height: 378px;
     margin: 0 auto;
     margin-top: 120px;
+    padding-top: 120px;
     
 }
 .host-title{
@@ -403,6 +434,52 @@
 }
 .host-icon img{
    gap: 5px;
+}
+/* ----------------Footer-Section------------ */
+footer{
+    background-image: url(../assets/footer-bg.png);
+    width: 1600px;
+    height: 412px;
+    padding-top: 130px;  
+}
+.footer-container{
+    width: 1360px;
+    height: 172px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.footer-title{
+    width: 410px;
+    height: 60px;
+    font-size: 3.75rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.footer-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 544px;
+    height: 24px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.footer-icon{
+    display: flex;
+    max-width: 152px;
+    max-height: 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 12px;
 }
 /* ------------------Mobile Device Responsive Start Here---------- */
 
