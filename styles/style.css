@@ -85,6 +85,7 @@
     padding-top: 101px;
     
 }
+
 .hero-images .image-01{
     max-width: 350px;
     max-height: 350px;
@@ -107,6 +108,24 @@
     color: #FFFFFF;
     margin-bottom: 8px;
 }
+
+.nav-btn, .hero-btn-1 {
+  width: 200px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .hero-description{
     font-size: 1rem;
     font-weight: 400;
@@ -678,3 +697,12 @@ footer{
     width: 100%;
 }
 }
+
+/* ------------------------Responsive for Medium devices---------------- */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+}
+    
+
+
+  
